@@ -154,10 +154,6 @@ Ferramentas criadas para **fins educacionais e defensivos**. Use apenas em siste
 
 ---
 
-## 👤 Autor
-
-**Tales** — Analista de Segurança da Informação (Blue Team / SOC)
-
 [![GitHub](https://img.shields.io/badge/GitHub-rootyuugen-181717?logo=github)](https://github.com/rootyuugen)
 
 Licenciado sob a [MIT License](LICENSE).
