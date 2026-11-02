@@ -92,6 +92,21 @@ FILE_EXTENSIONS = {
     "md", "db", "sql", "pcap", "evtx", "mov", "mp4",
 }
 
+# gTLDs aceitos (ccTLDs de 2 letras são sempre aceitos). Evita falsos positivos como
+# "header.from" ou "smtp.mailfrom" em cabeçalhos. Inclui os TLDs mais abusados em phishing.
+KNOWN_GTLDS = {
+    "com", "net", "org", "edu", "gov", "mil", "int", "info", "biz", "name", "pro", "mobi",
+    "app", "dev", "io", "ai", "xyz", "top", "online", "site", "website", "club", "shop",
+    "store", "tech", "cloud", "live", "life", "world", "today", "space", "fun", "icu",
+    "buzz", "click", "link", "work", "email", "support", "services", "digital", "network",
+    "host", "press", "news", "blog", "page", "win", "bid", "loan", "vip", "cyou", "rest",
+    "monster", "lol", "sbs", "cfd", "bond", "quest", "beauty", "hair", "skin", "makeup",
+    "asia", "help", "center", "company", "group", "solutions", "systems", "software",
+    "security", "download", "zone", "one", "global", "ltd", "inc", "llc", "media",
+    "agency", "studio", "design", "finance", "bank", "money", "pay", "cash", "credit",
+    "exchange", "market", "trade", "capital", "fund", "pw", "tk", "ml", "ga", "cf", "gq",
+}
+
 # Domínios benignos que poluem a extração (schemas XML, assinaturas de e-mail...).
 DEFAULT_ALLOWLIST = {
     "w3.org", "schemas.microsoft.com", "schemas.openxmlformats.org", "purl.org",
@@ -148,9 +163,13 @@ def extract(
         if _valid_ipv4(ip, include_private):
             add("ipv4", ip)
 
-    for domain in RE_DOMAIN.findall(text):
+    # Remove a parte local dos e-mails para que "joao.silva@x.com" não gere "joao.silva"
+    text_for_domains = RE_EMAIL.sub(lambda m: m.group(0).split("@")[1], text)
+    for domain in RE_DOMAIN.findall(text_for_domains):
         domain = domain.lower()
         tld = domain.rsplit(".", 1)[-1]
+        if len(tld) != 2 and tld not in KNOWN_GTLDS:
+            continue
         if tld in FILE_EXTENSIONS or _is_allowlisted(domain, allowlist):
             continue
         add("domain", domain)

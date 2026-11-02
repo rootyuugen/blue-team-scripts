@@ -13,6 +13,7 @@ Acabou o "Ctrl+C / Ctrl+V" de IP por IP de um PDF de 20 páginas.
 - **Defang na saída** (`--defang`): cola IOCs em ticket/Slack/Teams sem virar link clicável
 - **Redução de falso positivo:**
   - ignora IPs privados/reservados (RFC 1918, loopback, link-local) — use `--include-private` para manter
+  - valida o TLD (evita lixo de cabeçalhos como `header.from`, `smtp.mailfrom`)
   - ignora "domínios" que são nomes de arquivo (`invoice.pdf`, `payload.exe`, `script.ps1`)
   - allowlist de domínios benignos (`w3.org`, `attack.mitre.org`, `example.com`...) + sua própria lista
 - **Saídas:** tabela, JSON, CSV ou `plain` (um por linha — feito para *pipe*)
@@ -118,5 +119,6 @@ update-checker[.]top
 ## ⚠️ Limitações
 
 - IPv6 ainda não é extraído.
+- Domínios só são aceitos com ccTLD (2 letras) ou um gTLD da lista `KNOWN_GTLDS` — se uma campanha usar um TLD fora da lista, basta adicioná-lo.
 - TLDs que também são extensões de arquivo (`.zip`, `.mov`) são descartados de propósito — revise manualmente se a campanha usar esses TLDs.
 - Hashes de 32/40/64 caracteres hexadecimais podem casar com GUIDs ou tokens sem hífen; sempre valide no contexto.
