@@ -1,0 +1,29 @@
+# Segredos — NUNCA versionar chaves de API
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Testes / ferramentas
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs e saídas geradas localmente
+*.log
+!**/samples/*.log
+output/
+reports/
+
+# Sistema operacional / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
