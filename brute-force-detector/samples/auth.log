@@ -1,0 +1,124 @@
+Nov  2 08:00:00 ubuntu-srv CRON[20170]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 08:40:00 ubuntu-srv sshd[20001]: Accepted publickey for tales from 192.168.56.1 port 43648 ssh2: ED25519 SHA256:q1w2e3r4t5y6u7i8o9p0
+Nov  2 08:40:00 ubuntu-srv sshd[20025]: pam_unix(sshd:session): session opened for user tales(uid=1000) by (uid=0)
+Nov  2 09:00:00 ubuntu-srv CRON[20191]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 09:10:00 ubuntu-srv sshd[20034]: pam_unix(sshd:session): session closed for user tales
+Nov  2 09:15:00 ubuntu-srv sshd[20039]: Accepted publickey for tales from 192.168.56.1 port 47314 ssh2: ED25519 SHA256:q1w2e3r4t5y6u7i8o9p0
+Nov  2 09:15:00 ubuntu-srv sshd[20063]: pam_unix(sshd:session): session opened for user tales(uid=1000) by (uid=0)
+Nov  2 09:45:00 ubuntu-srv sshd[20067]: pam_unix(sshd:session): session closed for user tales
+Nov  2 10:00:00 ubuntu-srv CRON[20214]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 10:05:00 ubuntu-srv sshd[20351]: Failed password for tales from 192.168.56.1 port 51022 ssh2
+Nov  2 10:05:06 ubuntu-srv sshd[20352]: Accepted password for tales from 192.168.56.1 port 51022 ssh2
+Nov  2 11:00:00 ubuntu-srv CRON[20232]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 11:20:01 ubuntu-srv sshd[20375]: Failed password for root from 192.168.56.101 port 40463 ssh2
+Nov  2 11:20:02 ubuntu-srv sshd[20380]: Failed password for root from 192.168.56.101 port 48210 ssh2
+Nov  2 11:20:03 ubuntu-srv sshd[20384]: Failed password for root from 192.168.56.101 port 52059 ssh2
+Nov  2 11:20:03 ubuntu-srv sshd[20396]: Failed password for root from 192.168.56.101 port 36338 ssh2
+Nov  2 11:20:05 ubuntu-srv sshd[20422]: Failed password for root from 192.168.56.101 port 47335 ssh2
+Nov  2 11:20:06 ubuntu-srv sshd[20440]: Failed password for root from 192.168.56.101 port 60108 ssh2
+Nov  2 11:20:06 ubuntu-srv sshd[20443]: Failed password for root from 192.168.56.101 port 54807 ssh2
+Nov  2 11:20:07 ubuntu-srv sshd[20462]: Failed password for root from 192.168.56.101 port 53700 ssh2
+Nov  2 11:20:08 ubuntu-srv sshd[20464]: Failed password for root from 192.168.56.101 port 34558 ssh2
+Nov  2 11:20:10 ubuntu-srv sshd[20467]: Failed password for root from 192.168.56.101 port 48965 ssh2
+Nov  2 11:20:11 ubuntu-srv sshd[20480]: Failed password for root from 192.168.56.101 port 36619 ssh2
+Nov  2 11:20:12 ubuntu-srv sshd[20486]: Failed password for root from 192.168.56.101 port 53909 ssh2
+Nov  2 11:20:13 ubuntu-srv sshd[20508]: Failed password for root from 192.168.56.101 port 43730 ssh2
+Nov  2 11:20:14 ubuntu-srv sshd[20528]: Failed password for root from 192.168.56.101 port 34679 ssh2
+Nov  2 11:20:15 ubuntu-srv sshd[20534]: Failed password for root from 192.168.56.101 port 46043 ssh2
+Nov  2 11:20:16 ubuntu-srv sshd[20564]: Failed password for root from 192.168.56.101 port 47691 ssh2
+Nov  2 11:20:18 ubuntu-srv sshd[20586]: Failed password for root from 192.168.56.101 port 44392 ssh2
+Nov  2 11:20:19 ubuntu-srv sshd[20594]: Failed password for root from 192.168.56.101 port 33665 ssh2
+Nov  2 11:20:20 ubuntu-srv sshd[20607]: Failed password for root from 192.168.56.101 port 50673 ssh2
+Nov  2 11:20:21 ubuntu-srv sshd[20637]: Failed password for root from 192.168.56.101 port 43826 ssh2
+Nov  2 11:20:23 ubuntu-srv sshd[20644]: Failed password for root from 192.168.56.101 port 50622 ssh2
+Nov  2 11:20:24 ubuntu-srv sshd[20673]: Failed password for root from 192.168.56.101 port 55928 ssh2
+Nov  2 11:20:26 ubuntu-srv sshd[20678]: Failed password for root from 192.168.56.101 port 60071 ssh2
+Nov  2 11:20:27 ubuntu-srv sshd[20702]: Failed password for root from 192.168.56.101 port 46162 ssh2
+Nov  2 11:20:28 ubuntu-srv sshd[20726]: Failed password for root from 192.168.56.101 port 47219 ssh2
+Nov  2 11:20:29 ubuntu-srv sshd[20738]: Failed password for root from 192.168.56.101 port 56175 ssh2
+Nov  2 11:20:30 ubuntu-srv sshd[20755]: Failed password for root from 192.168.56.101 port 39065 ssh2
+Nov  2 11:20:31 ubuntu-srv sshd[20783]: Failed password for root from 192.168.56.101 port 33087 ssh2
+Nov  2 11:20:32 ubuntu-srv sshd[20809]: Failed password for root from 192.168.56.101 port 40484 ssh2
+Nov  2 11:20:33 ubuntu-srv sshd[20822]: Failed password for root from 192.168.56.101 port 34163 ssh2
+Nov  2 11:20:34 ubuntu-srv sshd[20839]: Failed password for root from 192.168.56.101 port 60674 ssh2
+Nov  2 11:20:35 ubuntu-srv sshd[20861]: Failed password for root from 192.168.56.101 port 30752 ssh2
+Nov  2 11:20:36 ubuntu-srv sshd[20886]: Failed password for root from 192.168.56.101 port 47486 ssh2
+Nov  2 11:20:38 ubuntu-srv sshd[20896]: Failed password for root from 192.168.56.101 port 37310 ssh2
+Nov  2 11:20:39 ubuntu-srv sshd[20897]: Failed password for root from 192.168.56.101 port 59735 ssh2
+Nov  2 11:20:40 ubuntu-srv sshd[20914]: Failed password for root from 192.168.56.101 port 47261 ssh2
+Nov  2 11:20:42 ubuntu-srv sshd[20944]: Failed password for root from 192.168.56.101 port 63271 ssh2
+Nov  2 11:20:43 ubuntu-srv sshd[20971]: Failed password for root from 192.168.56.101 port 49558 ssh2
+Nov  2 11:20:44 ubuntu-srv sshd[20976]: Failed password for root from 192.168.56.101 port 43035 ssh2
+Nov  2 11:20:45 ubuntu-srv sshd[20994]: Failed password for root from 192.168.56.101 port 40587 ssh2
+Nov  2 11:20:47 ubuntu-srv sshd[21024]: Failed password for root from 192.168.56.101 port 64757 ssh2
+Nov  2 11:20:47 ubuntu-srv sshd[21040]: Failed password for root from 192.168.56.101 port 51243 ssh2
+Nov  2 11:20:48 ubuntu-srv sshd[21069]: Failed password for root from 192.168.56.101 port 53788 ssh2
+Nov  2 11:20:49 ubuntu-srv sshd[21077]: Failed password for root from 192.168.56.101 port 50153 ssh2
+Nov  2 11:20:50 ubuntu-srv sshd[21080]: Failed password for root from 192.168.56.101 port 35161 ssh2
+Nov  2 11:20:51 ubuntu-srv sshd[21105]: Failed password for root from 192.168.56.101 port 34535 ssh2
+Nov  2 11:20:53 ubuntu-srv sshd[21110]: Failed password for root from 192.168.56.101 port 38241 ssh2
+Nov  2 11:20:54 ubuntu-srv sshd[21119]: Failed password for root from 192.168.56.101 port 40821 ssh2
+Nov  2 11:20:55 ubuntu-srv sshd[21136]: Disconnecting authenticating user root 192.168.56.101 port 44120: Too many authentication failures [preauth]
+Nov  2 12:00:00 ubuntu-srv CRON[20246]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 12:43:00 ubuntu-srv sshd[20070]: Accepted publickey for tales from 192.168.56.1 port 57870 ssh2: ED25519 SHA256:q1w2e3r4t5y6u7i8o9p0
+Nov  2 12:43:00 ubuntu-srv sshd[20089]: pam_unix(sshd:session): session opened for user tales(uid=1000) by (uid=0)
+Nov  2 13:00:00 ubuntu-srv CRON[20254]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 13:02:39 ubuntu-srv sshd[21143]: Invalid user admin from 198.51.100.23 port 57730
+Nov  2 13:02:39 ubuntu-srv sshd[21166]: Failed password for invalid user admin from 198.51.100.23 port 43182 ssh2
+Nov  2 13:03:08 ubuntu-srv sshd[21188]: Invalid user ubuntu from 198.51.100.23 port 56148
+Nov  2 13:03:08 ubuntu-srv sshd[21203]: Failed password for invalid user ubuntu from 198.51.100.23 port 54472 ssh2
+Nov  2 13:03:44 ubuntu-srv sshd[21207]: Invalid user test from 198.51.100.23 port 59588
+Nov  2 13:03:44 ubuntu-srv sshd[21215]: Failed password for invalid user test from 198.51.100.23 port 46246 ssh2
+Nov  2 13:04:06 ubuntu-srv sshd[21216]: Invalid user oracle from 198.51.100.23 port 52156
+Nov  2 13:04:06 ubuntu-srv sshd[21235]: Failed password for invalid user oracle from 198.51.100.23 port 45080 ssh2
+Nov  2 13:04:33 ubuntu-srv sshd[21238]: Invalid user postgres from 198.51.100.23 port 30471
+Nov  2 13:04:33 ubuntu-srv sshd[21246]: Failed password for invalid user postgres from 198.51.100.23 port 33858 ssh2
+Nov  2 13:04:55 ubuntu-srv sshd[21274]: Invalid user git from 198.51.100.23 port 32058
+Nov  2 13:04:55 ubuntu-srv sshd[21277]: Failed password for invalid user git from 198.51.100.23 port 51654 ssh2
+Nov  2 13:05:31 ubuntu-srv sshd[21286]: Invalid user deploy from 198.51.100.23 port 45597
+Nov  2 13:05:31 ubuntu-srv sshd[21293]: Failed password for invalid user deploy from 198.51.100.23 port 61812 ssh2
+Nov  2 13:06:08 ubuntu-srv sshd[21317]: Invalid user jenkins from 198.51.100.23 port 38671
+Nov  2 13:06:08 ubuntu-srv sshd[21325]: Failed password for invalid user jenkins from 198.51.100.23 port 60976 ssh2
+Nov  2 13:06:53 ubuntu-srv sshd[21351]: Invalid user support from 198.51.100.23 port 60996
+Nov  2 13:06:53 ubuntu-srv sshd[21358]: Failed password for invalid user support from 198.51.100.23 port 56677 ssh2
+Nov  2 13:07:16 ubuntu-srv sshd[21380]: Invalid user guest from 198.51.100.23 port 36352
+Nov  2 13:07:16 ubuntu-srv sshd[21392]: Failed password for invalid user guest from 198.51.100.23 port 58249 ssh2
+Nov  2 13:07:49 ubuntu-srv sshd[21407]: Invalid user backup from 198.51.100.23 port 56941
+Nov  2 13:07:49 ubuntu-srv sshd[21429]: Failed password for invalid user backup from 198.51.100.23 port 33550 ssh2
+Nov  2 13:08:29 ubuntu-srv sshd[21431]: Invalid user ftpuser from 198.51.100.23 port 36449
+Nov  2 13:08:29 ubuntu-srv sshd[21455]: Failed password for invalid user ftpuser from 198.51.100.23 port 56386 ssh2
+Nov  2 13:13:00 ubuntu-srv sshd[20103]: pam_unix(sshd:session): session closed for user tales
+Nov  2 14:00:00 ubuntu-srv CRON[20269]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 14:02:00 ubuntu-srv sshd[20106]: Accepted publickey for tales from 192.168.56.1 port 40976 ssh2: ED25519 SHA256:q1w2e3r4t5y6u7i8o9p0
+Nov  2 14:02:00 ubuntu-srv sshd[20113]: pam_unix(sshd:session): session opened for user tales(uid=1000) by (uid=0)
+Nov  2 14:32:00 ubuntu-srv sshd[20121]: pam_unix(sshd:session): session closed for user tales
+Nov  2 15:00:00 ubuntu-srv CRON[20288]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 15:40:01 ubuntu-srv sshd[21463]: Failed password for svc_backup from 203.0.113.45 port 37161 ssh2
+Nov  2 15:40:03 ubuntu-srv sshd[21468]: Failed password for svc_backup from 203.0.113.45 port 59400 ssh2
+Nov  2 15:40:04 ubuntu-srv sshd[21483]: Failed password for svc_backup from 203.0.113.45 port 48254 ssh2
+Nov  2 15:40:06 ubuntu-srv sshd[21498]: Failed password for svc_backup from 203.0.113.45 port 34940 ssh2
+Nov  2 15:40:09 ubuntu-srv sshd[21500]: Failed password for svc_backup from 203.0.113.45 port 36416 ssh2
+Nov  2 15:40:11 ubuntu-srv sshd[21503]: Failed password for svc_backup from 203.0.113.45 port 30967 ssh2
+Nov  2 15:40:14 ubuntu-srv sshd[21509]: Failed password for svc_backup from 203.0.113.45 port 45491 ssh2
+Nov  2 15:40:15 ubuntu-srv sshd[21516]: Failed password for svc_backup from 203.0.113.45 port 61546 ssh2
+Nov  2 15:40:18 ubuntu-srv sshd[21522]: Failed password for svc_backup from 203.0.113.45 port 33842 ssh2
+Nov  2 15:40:20 ubuntu-srv sshd[21531]: Failed password for svc_backup from 203.0.113.45 port 55586 ssh2
+Nov  2 15:40:23 ubuntu-srv sshd[21541]: Failed password for svc_backup from 203.0.113.45 port 59819 ssh2
+Nov  2 15:40:25 ubuntu-srv sshd[21546]: Failed password for svc_backup from 203.0.113.45 port 61894 ssh2
+Nov  2 15:40:26 ubuntu-srv sshd[21548]: Failed password for svc_backup from 203.0.113.45 port 44267 ssh2
+Nov  2 15:40:28 ubuntu-srv sshd[21572]: Failed password for svc_backup from 203.0.113.45 port 33994 ssh2
+Nov  2 15:40:30 ubuntu-srv sshd[21591]: Failed password for svc_backup from 203.0.113.45 port 33286 ssh2
+Nov  2 15:40:32 ubuntu-srv sshd[21597]: Failed password for svc_backup from 203.0.113.45 port 64807 ssh2
+Nov  2 15:40:33 ubuntu-srv sshd[21600]: Failed password for svc_backup from 203.0.113.45 port 63281 ssh2
+Nov  2 15:40:36 ubuntu-srv sshd[21620]: Failed password for svc_backup from 203.0.113.45 port 34490 ssh2
+Nov  2 15:40:37 ubuntu-srv sshd[21633]: Failed password for svc_backup from 203.0.113.45 port 45414 ssh2
+Nov  2 15:40:38 ubuntu-srv sshd[21652]: Failed password for svc_backup from 203.0.113.45 port 46135 ssh2
+Nov  2 15:40:40 ubuntu-srv sshd[21666]: Failed password for svc_backup from 203.0.113.45 port 35372 ssh2
+Nov  2 15:40:42 ubuntu-srv sshd[21677]: Failed password for svc_backup from 203.0.113.45 port 64261 ssh2
+Nov  2 15:40:44 ubuntu-srv sshd[21707]: Accepted password for svc_backup from 203.0.113.45 port 52811 ssh2
+Nov  2 15:40:44 ubuntu-srv sshd[21716]: pam_unix(sshd:session): session opened for user svc_backup(uid=1002) by (uid=0)
+Nov  2 16:00:00 ubuntu-srv CRON[20297]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 17:00:00 ubuntu-srv CRON[20323]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 17:32:00 ubuntu-srv sshd[20122]: Accepted publickey for tales from 192.168.56.1 port 59726 ssh2: ED25519 SHA256:q1w2e3r4t5y6u7i8o9p0
+Nov  2 17:32:00 ubuntu-srv sshd[20140]: pam_unix(sshd:session): session opened for user tales(uid=1000) by (uid=0)
+Nov  2 18:02:00 ubuntu-srv sshd[20147]: pam_unix(sshd:session): session closed for user tales
