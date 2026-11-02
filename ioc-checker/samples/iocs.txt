@@ -1,0 +1,14 @@
+# Lista de exemplo — um IOC por linha, '#' inicia comentário.
+# Aceita IOCs defanged (1.2.3[.]4, hxxp://...).
+
+# IPs
+185.220.101[.]47        # nó de saída Tor conhecido — costuma ter score alto no AbuseIPDB
+8.8.8.8                 # DNS do Google — controle "limpo"
+192.168.56.101          # IP privado — será ignorado
+
+# Domínios
+example.com
+
+# Hashes
+44d88612fea8a8f36de82e1278abb02f                                   # MD5 do arquivo de teste EICAR
+275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f   # SHA256 do EICAR
