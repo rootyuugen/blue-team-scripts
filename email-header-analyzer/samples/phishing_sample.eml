@@ -1,0 +1,33 @@
+Return-Path: <bounce-7731@hostingbarato.top>
+Delivered-To: financeiro@empresa-exemplo.com.br
+Authentication-Results: mx01.empresa-exemplo.com.br;
+	spf=softfail (domain of transitioning bounce-7731@hostingbarato.top does not designate 45.142.212.61 as permitted sender) smtp.mailfrom=bounce-7731@hostingbarato.top;
+	dkim=none (message not signed);
+	dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=micros0ft-verify.top
+Received: from mx01.empresa-exemplo.com.br (mx01.empresa-exemplo.com.br [10.0.0.5])
+	by mbx01.empresa-exemplo.com.br (Postfix) with ESMTPS id 4XyZ81Lq2Pz9sT
+	for <financeiro@empresa-exemplo.com.br>; Wed, 28 Oct 2026 14:21:09 -0300 (-03)
+Received: from vps-4471.hostingbarato.top (vps-4471.hostingbarato.top [45.142.212.61])
+	by mx01.empresa-exemplo.com.br (Postfix) with ESMTP id 9F2A11C0042
+	for <financeiro@empresa-exemplo.com.br>; Wed, 28 Oct 2026 14:21:07 -0300 (-03)
+Received: from localhost (localhost [127.0.0.1])
+	by vps-4471.hostingbarato.top (Postfix) with ESMTPA id 1B3C5D7E
+	for <financeiro@empresa-exemplo.com.br>; Wed, 28 Oct 2026 17:20:58 +0000 (UTC)
+Received-SPF: softfail (mx01.empresa-exemplo.com.br: domain of transitioning bounce-7731@hostingbarato.top does not designate 45.142.212.61 as permitted sender)
+From: "Microsoft 365 <no-reply@microsoft.com>" <seguranca@micros0ft-verify.top>
+Reply-To: suporte.contas@gmail-recovery.xyz
+To: financeiro@empresa-exemplo.com.br
+Subject: =?UTF-8?B?W0HDp8OjbyBuZWNlc3PDoXJpYV0gU3VhIHNlbmhhIGV4cGlyYSBob2pl?=
+Date: Wed, 28 Oct 2026 17:20:57 +0000
+Message-ID: <20261028172057.1B3C5D7E@vps-4471.hostingbarato.top>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+X-Mailer: PHPMailer 6.8.1 (https://github.com/PHPMailer/PHPMailer)
+X-Originating-IP: [45.142.212.61]
+
+<html><body>
+<p>Prezado usuário,</p>
+<p>Sua senha do Microsoft 365 expira hoje. Para manter o acesso, confirme seus dados:</p>
+<p><a href="hxxps://login-micros0ft-verify[.]top/owa/auth">Manter minha senha atual</a></p>
+<p>Equipe de Segurança Microsoft</p>
+</body></html>
