@@ -1,0 +1,52 @@
+=====================================================================
+ RELATÓRIO DE INCIDENTE — IR-2026-0147 (TLP:CLEAR · exemplo fictício)
+ Campanha: "NotaFiscal Falsa" — phishing com loader em .lnk
+=====================================================================
+
+RESUMO
+------
+Em 28/10/2026 o SOC recebeu alerta do EDR no host FIN-WS042 após um
+usuário do financeiro abrir o anexo "NF-e_88213.zip" recebido do remetente
+financeiro@notafiscal-sefaz[.]com. O ZIP continha NF-e_88213.pdf.lnk, que
+executou PowerShell ofuscado baixando o segundo estágio.
+
+A exploração inicial do servidor web de staging usou a CVE-2024-3400 e,
+em paralelo, foi observada tentativa contra o Exchange (cve-2021-26855).
+
+CADEIA DE EXECUÇÃO
+------------------
+1. explorer.exe -> NF-e_88213.pdf.lnk
+2. powershell.exe -w hidden -enc <base64>
+3. Download de hxxps://cdn-update[.]xyz/static/payload.bin
+4. Beacon C2 a cada 60s para 185.220.101[.]47:443 e hxxp://45.142.212[.]61/gate.php
+5. Exfiltração via update-checker[.]top
+
+INDICADORES (IOCs)
+------------------
+Rede:
+  - 185.220.101[.]47        (C2 primário)
+  - 45.142.212.61           (C2 secundário)
+  - cdn-update[.]xyz
+  - update-checker[.]top
+  - hxxps://cdn-update[.]xyz/static/payload.bin
+  - hxxp://45.142.212[.]61/gate.php
+
+Arquivos:
+  NF-e_88213.zip   MD5    5d41402abc4b2a76b9719d911017c592
+  payload.bin      SHA1   aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d
+  payload.bin      SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+E-mail:
+  - financeiro@notafiscal-sefaz[.]com
+  - Reply-To: cobranca[at]notafiscal-sefaz[.]com
+
+Ruído interno (não deve ser reportado como IOC externo):
+  - Host comprometido: 10.20.30.42 (FIN-WS042)
+  - Gateway: 10.20.30.1
+  - Referência: https://attack.mitre.org/techniques/T1566/001/
+
+AÇÕES TOMADAS
+-------------
+- Host isolado pelo EDR às 14:32.
+- IPs e domínios bloqueados no firewall de borda e no proxy.
+- Hashes adicionados à blocklist do EDR.
